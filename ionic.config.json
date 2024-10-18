@@ -1,0 +1,7 @@
+{
+  "name": "New-QR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
