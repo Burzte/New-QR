@@ -1,0 +1,58 @@
+ion-content {
+  --background: #000000; /* Fondo negro */
+  color: #ffffff; /* Texto blanco por defecto */
+}
+
+form {
+  padding: 20px;
+}
+
+ion-label {
+  color: #ffffff; /* Texto de los labels en blanco */
+
+}
+
+ion-input {
+  color: #ffffff;
+  --color-activated: #00ff00; /* Cambiar el texto a verde cuando se ingresa */
+  --placeholder-color: #aaaaaa; /* Color gris para los placeholders */
+  --background: transparent; /* Fondo transparente para los inputs */
+  --color-focused: #00ff00; /* Color verde para el texto al enfocarse */
+  --color: #ffffff; /* Texto blanco por defecto */
+  --border-width: 1px; /* Grosor del borde */
+  --border-color: #00ff00; /* Color del borde */
+  margin-bottom: 16px;
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+ion-button {
+    --border-color: #00ff00; /* Borde verde para el botón */
+    --color: #00ff00; /* Texto del botón en verde */
+    --background: transparent; /* Fondo transparente */
+    --border-width: 2px; /* Borde más grueso para el botón */
+    margin-top: 24px;
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.button-container {
+  display: flex;        /* Usar flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  margin-top: 20px;     /* Añadir margen superior si es necesario */
+}
+
+ion-button:hover {
+  background-color: #00ff00; /* Cambiar el color de fondo al pasar el mouse por encima */
+}
+
+ion-item {
+  color: #ffffff;
+  --color-activated: #00ff00; /* Cambiar el texto a verde cuando se ingresa */
+  --placeholder-color: #aaaaaa; /* Color gris para los placeholders */
+  --background: transparent; /* Fondo transparente para los inputs */
+  --color-focused: #00ff00; /* Color verde para el texto al enfocarse */
+  --color: #ffffff; /* Texto blanco por defecto */
+  --border-width: 1px; /* Grosor del borde */
+  margin-bottom: 16px;
+  border-radius: 4px; /* Bordes redondeados */
+}
+

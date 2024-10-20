@@ -1,0 +1,23 @@
+
+
+<ion-content>
+  <form (ngSubmit)="onLogin()">
+
+      <ion-input type="email" [(ngModel)]="email" name="email" required
+      label="Email" label-placement="floating" fill="outline" placeholder="Ingresar Email" color="success"></ion-input>
+
+      <ion-input type="password" [(ngModel)]="password" name="password" required
+      label="Contraseña" label-placement="floating" fill="outline" placeholder="Ingresar Contraseña" color="success">
+        <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+      </ion-input>
+
+      <div class="button-container">
+        <ion-button type="submit" fill="outline">Iniciar Sesión</ion-button>
+      </div>
+
+    <ion-item lines="none">
+      <ion-label>No tienes una cuenta? <a [routerLink]="['/register']">Regístrate aquí</a></ion-label>
+    </ion-item>
+  </form>
+</ion-content>
+
